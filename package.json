@@ -1,0 +1,24 @@
+{
+  "name": "soup-drive-sync",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Drive Sync: back up and restore a SOUP profile's Library and settings with Google Drive.",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "typecheck": "tsc --noEmit",
+    "test": "node --experimental-strip-types --test \"tests/*.test.ts\"",
+    "check": "npm run typecheck && npm run build && npm test && node scripts/verify-dist.mjs",
+    "fake-google": "node --experimental-strip-types scripts/fake-google.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.7"
+  }
+}

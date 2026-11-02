@@ -1,0 +1,16 @@
+{
+  "id": "drive-sync",
+  "name": "Drive Sync",
+  "version": "1.0.0",
+  "minAppVersion": "2.3.0",
+  "apiVersion": "^1.0",
+  "description": "Back up your Library and settings to your own Google Drive, and restore them on any PC. Sign-in only; it sees just the files it creates.",
+  "author": "zachleolewis",
+  "repo": "zachleolewis/SOUP-Tools-Drive-Sync-Extension",
+  "links": [
+    { "label": "Documentation", "url": "https://github.com/zachleolewis/SOUP-Tools-Drive-Sync-Extension#readme" },
+    { "label": "Privacy", "url": "https://zachleolewis.github.io/soup-tools/privacy.html" }
+  ],
+  "uses": ["accounts", "network", "filesystem"],
+  "requiresModules": ["library"]
+}
