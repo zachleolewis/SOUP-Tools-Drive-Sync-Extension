@@ -34,3 +34,20 @@ source repository: `pnpm selftest:drive-sync`, which expects this repository nex
 - Release: bump `package.json` and `manifest.json` together, tag `vX.Y.Z` equal to the manifest version. It is listed as
   Official in `zachleolewis/SOUP-Tools-Community-Extensions`; SOUP installs the latest release, so no list change is needed.
 - `manifest.json` `minAppVersion` is the oldest SOUP that has every API it uses (2.3.0 today).
+
+## Documentation is part of the work
+
+The SOUP Tools owner's rule (2026-11-02) for every agent and contributor in every SOUP Tools repository: keep the documentation
+excellent, tidy and current, so the next person or agent can continue the work cold.
+
+1. **Read before you work**: this repository's handover, index and decisions; do not re-derive or re-ask what is written down.
+2. **Write as you go**: findings, measurements (with the command, data and machine), decisions (with the reason and who decided),
+   dead ends and why, gotchas, and what you could not verify, in the document that owns the topic.
+3. **One home per fact**: other documents link to it. Adding, moving or removing a document updates the index that lists it in the
+   same commit.
+4. **The owner's words are kept word for word**, then turned into numbered decisions; a decision changes by a new entry that
+   supersedes the old one.
+5. **Status lines and absolute dates** on every plan and spec; superseded documents are archived with a pointer.
+6. **Close every session**: update the handover or progress notes, record what you noticed and left, say plainly what was not verified.
+7. **A change that touches another SOUP Tools repository** updates that repository's documentation too.
+8. **Tidy**: no stale TODOs, no docs or comments describing code that changed, ASCII text.
